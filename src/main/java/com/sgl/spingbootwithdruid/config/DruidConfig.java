@@ -60,7 +60,7 @@ public class DruidConfig {
         return bean;
     }
 
-    //2、配置一个web监控的filter
+    //2、 配 置一个web监控的filter
     @Bean
     public FilterRegistrationBean webStatFilter(){
         FilterRegistrationBean bean = new FilterRegistrationBean();
